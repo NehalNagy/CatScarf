@@ -1,67 +1,77 @@
         @import url('https://fonts.googleapis.com/css?family=Leckerli+One|Sacramento&subset=latin-ext');
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400i');
-            #mainHeader{				
+        @import url('https://fonts.googleapis.com/css?family=Alice');
+            #mainHeader{
                 text-align: center;
                 color: white;
                 background: url(../assets/cat.jpg);
                 background-size: cover;
-			    height: 600px;                			                
+			          height: 655px;
             }
-			body{
-				margin: 0;
-				padding: 0;
-				 text-align: center;
-			}
+      			body{
+      				margin: 0;
+      				padding: 0;
+      				 text-align: center;
+      			}
             h1{
                  font-family:"Playfair Display SC", serif;
                  font-style: italic;
                  font-size: 4.5em;
-                 font-weight: 300;                
+                 font-weight: 300;
                  margin: 0 auto;
             }
-           #mainHeader>h1{               
-                border-bottom: 1px solid white;
-                max-width: 80%;
-            }
-           .comingSoonLink{
-                font-family: "Sacramento", sans-serif;
-                font-weight: 300;
-                font-style: normal;
-                font-size: 4rem;
-                color: white;
-                text-decoration: none;
-            }
-			a{				
-				color: white;
-                text-decoration: none;
-			}
+
+      			a{
+      				color: white;
+                      text-decoration: none;
+      			}
             ul{
-                list-style-type: none;   
+                list-style-type: none;
                 margin: 0;
                 padding: 40px;
             }
-            li{                
-				display: inline;
-				padding: 10px;
+            li{
+        				display: inline;
+        				padding: 10px;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-            }           
-            #AutumnHeader>h1{
-                border-bottom: 1px solid #000;  
-                max-width: 50%;               
             }
-            #SpringHeader>h1{
-                border-bottom: 1px solid #000;  
-                max-width:35%;               
+            p{
+                  font-family: "Alice", serif;
             }
-             #HallowHeader>h1{
-                border-bottom: 1px solid #000;  
-                max-width:60%;               
+            #mainHeader>h1{
+                 border-bottom: 1px solid white;
+                 max-width: 80%;
+             }
+            .comingSoonLink{
+                 font-family: "Sacramento", sans-serif;
+                 font-weight: 300;
+                 font-style: normal;
+                 font-size: 4rem;
+                 color: white;
+                 text-decoration: none;
+             }
+            .page-header>h1{
+                border-bottom: 1px solid #000;
+                display: inline-block;
+                padding-top: 0%;
+                padding-bottom: 1%;
+                margin-top: 0%;
+                margin-bottom: 2%;
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+            .page-header>p{
+              margin-top: 0%;
+              margin-bottom: 0%;
+              font-size: 1.5rem;
             }
             .smallTitle{
                 display: block;
                 font-weight: 400;
                 letter-spacing: 0.5em;
-                font-size: 65%
+                font-size: 65%;
+                text-transform: uppercase;
+
             }
 
             .allSections{
@@ -74,9 +84,38 @@
                 max-width:25%;
             }
             .divider{
-                min-height: 350px;
-                background-image: url("/assets/img_homepage_divider.jpg");
+
                 background-repeat: no-repeat;
+                background-size: 100% auto;
                 background-position: center 100%;
+                min-height: 400px;
                 background-position-y: -42.8125px;
+
+            }
+            #divider1{
+                background-image: url("../assets/img_homepage_divider.jpg");
+            }
+            #divider2{
+                background-image: url("../assets/img_homepage_footer.jpg");
+                background-attachment: fixed;
+
+
+            }
+            #info{
+                  background-color: #f4efde;
+                  margin-top: 0;
+                  padding-top: 6%;
+                  padding-bottom: 20%;
+            }
+            #contact{
+              min-height: 310px;
+              text-align: center;
+              background-color: #dba539;
+              color: white;
+            }
+            #footer{
+              color: #fff;
+              padding: 1em 0;
+              display: block;
+              background-color: #805f1e;
             }
