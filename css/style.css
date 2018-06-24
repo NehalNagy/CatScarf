@@ -106,6 +106,7 @@
                   margin-top: 0;
                   padding-top: 6%;
                   padding-bottom: 20%;
+                  min-height: 500px;
             }
             #contact{
               min-height: 310px;
@@ -119,3 +120,21 @@
               display: block;
               background-color: #805f1e;
             }
+          #activities{
+            display: flex;
+            justify-content: center;
+          }
+          .activityItem{
+            margin-right: 2%;
+            width: 25%;
+            float: left;
+            text-align: center;
+
+          }
+          .activityItem p{
+            text-align: justify;
+          }
+          #infoHeader{
+            width: 55%;
+            margin: 0 auto;
+          }
