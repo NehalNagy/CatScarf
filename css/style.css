@@ -39,9 +39,17 @@ ul {
 
 }
 .menu{
-   width: 100vh;
+   width: 100%;
     margin: 0 auto;
     height: 25%;
+    padding-bottom: 50px;
+}
+.menu ul{
+    padding-top: 30px;
+    margin-top: 0px;
+}
+.catLogoContainer{
+    display: inline-block;
 }
 li{
     display: inline;
